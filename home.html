@@ -12,25 +12,33 @@
   <body>
     <center><img src="logo.png" width="50%" height="50%" style="margin-top: -10%;"></center>
 
-    <form name="contact" method="POST" data-netlify="true">
-      <p>
-        <label class="mdl-textfield__label">Question 1: <input type="text" name="one" /></label>
-      </p>
-      <p>
-        <label class="mdl-textfield__label">Quesion 2: <input type="text" name="two" /></label>
-      </p>
-      <p>
-        <label class="mdl-textfield__label">Question 3: <input type="text" name="three" /></label>
-      </p>
-      <p>
-        <label class="mdl-textfield__label">Quesion 4: <input type="text" name="four" /></label>
-      </p>
-      <p>
-        <label class="mdl-textfield__label">Question 5: <input type="text" name="five" /></label>
-      </p>
-      <p>
-        <button type="submit">Send</button>
-      </p>
-</form>
+    <form name="submitAnswer" method="POST" data-netlify="true">
+
+      <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" id="answerOne" name="one">
+        <label class="mdl-textfield__label" for="answerOne">Question One</label>
+      </div>
+
+      <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" id="answerTwo" name="two">
+        <label class="mdl-textfield__label" for="answerOne">Question Two</label>
+      </div>
+
+      <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" id="answerThree" name="three">
+        <label class="mdl-textfield__label" for="answerOne">Question Three</label>
+      </div>
+
+      <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" id="answerFour" name="four">
+        <label class="mdl-textfield__label" for="answerOne">Question Four</label>
+      </div>
+
+      <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" id="answerFive" name="five">
+        <label class="mdl-textfield__label" for="answerOne">Question Five</label>
+      </div>
+
+  </form>
 
 </html>

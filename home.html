@@ -9,40 +9,52 @@
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   </head>
 
+  <style>
+    form{
+      padding-left: 10%;
+    }
+    .mdl-textfield{
+      width: 80%;
+      margin-bottom: 5%;
+    }
+
+  </style>
+
   <body>
     <center><img src="logo.png" width="50%" height="50%" style="margin-top: -10%;"></center>
 
-    <center><form name="submitAnswer" method="POST" data-netlify="true">
+    <form name="submitAnswer" method="POST" data-netlify="true">
 
-      <div class="mdl-textfield mdl-js-textfield">
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
         <input class="mdl-textfield__input" type="text" id="answerOne" name="one">
         <label class="mdl-textfield__label" for="answerOne">Question One</label>
       </div><br>
 
-      <div class="mdl-textfield mdl-js-textfield">
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
         <input class="mdl-textfield__input" type="text" id="answerTwo" name="two">
-        <label class="mdl-textfield__label" for="answerOne">Question Two</label>
+        <label class="mdl-textfield__label" for="answerTwo">Question Two</label>
       </div><br>
 
-      <div class="mdl-textfield mdl-js-textfield">
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
         <input class="mdl-textfield__input" type="text" id="answerThree" name="three">
-        <label class="mdl-textfield__label" for="answerOne">Question Three</label>
+        <label class="mdl-textfield__label" for="answerThree">Question Three</label>
       </div><br>
 
-      <div class="mdl-textfield mdl-js-textfield">
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
         <input class="mdl-textfield__input" type="text" id="answerFour" name="four">
-        <label class="mdl-textfield__label" for="answerOne">Question Four</label>
+        <label class="mdl-textfield__label" for="answerFour">Question Four</label>
       </div><br>
 
-      <div class="mdl-textfield mdl-js-textfield">
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
         <input class="mdl-textfield__input" type="text" id="answerFive" name="five">
-        <label class="mdl-textfield__label" for="answerOne">Question Five</label>
+        <label class="mdl-textfield__label" for="answerFive">Question Five</label>
       </div><br>
 
+      <center>
       <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" type="submit">
         Submit
       </button>
 
-    </form></center
+    </center><br>
 
 </html>
